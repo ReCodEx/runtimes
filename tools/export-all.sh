@@ -25,7 +25,7 @@ for RUNTIME in $RUNTIMES; do
 	DIFF_RES=1
 	if [ ! -z "$LAST_EXISTING" ]; then
 		# compare the export with last existing version
-		diff "$TMP" "$LAST_EXISTING"
+		diff-pkgs.php "$TMP" "$LAST_EXISTING"
 		DIFF_RES=$?
 	fi
 	
