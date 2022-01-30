@@ -57,3 +57,49 @@ function deepCompare($arr1, $arr2): bool
 
     return true;
 }
+
+/**
+ * Go through list of args, validate the files/dirs exists, use glob to search directories.
+ */
+function preprocessFileArgs($args): array
+{
+    $res = [];
+    foreach ($args as $arg) {
+        if (is_dir($arg)) {
+            foreach (glob("$arg/*.zip") as $f) {
+                $res[$f] = true;
+            }
+        } elseif (is_file($arg)) {
+            $res[$arg] = true;
+        } else {
+            throw new RuntimeException("Argument $arg does not refer to existing file nor directory.");
+        }
+    }
+
+    return array_keys($res);
+}
+
+/**
+ * Combine multiple name sets into one and sort it.
+ */
+function mergeNameSets($sets, $ignore): array
+{
+    if (!is_array($ignore)) {
+        $ignore = [ $ignore ];
+    }
+
+    $res = [];
+    foreach ($sets as $set) {
+        foreach ($set as $name) {
+            $res[$name] = true;
+        }
+    }
+
+    foreach ($ignore as $i) {
+        unset($res[$i]);
+    }
+
+    $res = array_keys($res);
+    sort($res);
+    return $res;
+}
