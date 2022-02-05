@@ -20,6 +20,9 @@ Note, that the package contains
 If some of the entities already exist, they are overwritten. This may be potentially problematic since the pipelines are shared among the runtimes.
 Readme in [**generic**](https://github.com/ReCodEx/runtimes/tree/main/generic) folder contains a listing with quick overview of generic packages and their overlaps (which of the other packages share some of the pipelines).
 
+> **Note that the import will not alter existing exercise configurations!**
+> 
+> If the import creates new pipelines and changes associations with particular runtime environment, existing exercises will not be affected. That might be a problem if you need to start using new pipelines immediately. If the pipelines already exist and are overwritten, there is no problem since their IDs (which are kept in exercise configs) are not changed.
 
 ## Package structure
 
