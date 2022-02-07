@@ -23,6 +23,8 @@ Readme in [**generic**](https://github.com/ReCodEx/runtimes/tree/main/generic) f
 > **Note that the import will not alter existing exercise configurations!**
 > 
 > If the import creates new pipelines and changes associations with particular runtime environment, existing exercises will not be affected. That might be a problem if you need to start using new pipelines immediately. If the pipelines already exist and are overwritten, there is no problem since their IDs (which are kept in exercise configs) are not changed.
+> 
+> Use `bin/console runtimes:fixExerciseConfigs <runtime-id>` command to fix exercise configs after particular environment has been updated. This command will scan the configs and attempt to replace old pipeline IDs with the new (updated) ones where pipelines were changed. Please note that this command is highly experimental and may not work for all updates (we **strongly recommend you backup your database** before executing it).
 
 ## Package structure
 
