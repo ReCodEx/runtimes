@@ -2,9 +2,8 @@
 <?php
 
 /*
- * Compares manifests from two zip packages.
- * Returns exit code 0 if they are the same, 1 if they differ.
- * Usage: ./diff-pkgs.php <zip-file1> <zip-file2>
+ * Dumps info about packages and their relations (shared pipelines).
+ * Usage: ./info.php <pkg-files-or-dirs>
  */
 
 require_once __DIR__ . '/shared.php';
