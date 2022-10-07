@@ -7,61 +7,35 @@ bash-2022-01-29.zip
 	Name: Bash (Bourne Again SHell)
 	Description: Shell scripts executed with Bash
 	Files that share some of the pipelines:
-		node-linux-2022-01-29.zip
-		node-linux-2022-02-16.zip
-		php-linux-2022-01-29.zip
+		node-linux-2022-10-07.zip
 		php-linux-2022-02-16.zip
-		python3-2022-01-29.zip
 		python3-2022-02-16.zip
 
-c-gcc-linux-2022-01-29.zip
+c-gcc-linux-2022-10-07.zip
 	ID: c-gcc-linux
 	Name: C (GCC)
-	Description: C language compiled with GCC (11.2)
+	Description: C language compiled with GCC (12.2)
 	Files that share some of the pipelines:
-		cs-dotnet-core-2022-01-29.zip
-		cxx-gcc-linux-2022-01-29.zip
-		freepascal-linux-2022-01-29.zip
-		go-2022-01-29.zip
+		cxx-gcc-linux-2022-10-07.zip
+		freepascal-linux-2022-10-07.zip
 		go-2022-02-16.zip
 		prolog-2022-01-29.zip
-		rust-2022-01-29.zip
-		rust-2022-02-16.zip
-
-cs-dotnet-core-2022-01-29.zip
-	ID: cs-dotnet-core
-	Name: C# (.NET Core)
-	Description: C# language compiled and executed by .NET Core 3.1
-	Files that share some of the pipelines:
-		c-gcc-linux-2022-01-29.zip
-		cs-dotnet-core-2022-02-16.zip
-		cxx-gcc-linux-2022-01-29.zip
-		freepascal-linux-2022-01-29.zip
-		go-2022-01-29.zip
-		go-2022-02-16.zip
-		prolog-2022-01-29.zip
-		rust-2022-01-29.zip
 		rust-2022-02-16.zip
 
 cs-dotnet-core-2022-02-16.zip
 	ID: cs-dotnet-core
 	Name: C# (.NET Core)
 	Description: C# language compiled and executed by .NET Core 6.0
-	Files that share some of the pipelines:
-		cs-dotnet-core-2022-01-29.zip
 
-cxx-gcc-linux-2022-01-29.zip
+cxx-gcc-linux-2022-10-07.zip
 	ID: cxx-gcc-linux
 	Name: C++ (GCC)
-	Description: C++17 language compiled with GCC (11.2)
+	Description: C++17 language compiled with GCC (12.2)
 	Files that share some of the pipelines:
-		c-gcc-linux-2022-01-29.zip
-		cs-dotnet-core-2022-01-29.zip
-		freepascal-linux-2022-01-29.zip
-		go-2022-01-29.zip
+		c-gcc-linux-2022-10-07.zip
+		freepascal-linux-2022-10-07.zip
 		go-2022-02-16.zip
 		prolog-2022-01-29.zip
-		rust-2022-01-29.zip
 		rust-2022-02-16.zip
 
 data-linux-2022-01-29.zip
@@ -69,32 +43,15 @@ data-linux-2022-01-29.zip
 	Name: Data-Only
 	Description: Data environment for exercises where users can submit anything and the submission is verified by a custom judge
 
-freepascal-linux-2022-01-29.zip
+freepascal-linux-2022-10-07.zip
 	ID: freepascal-linux
 	Name: Pascal (FreePascal)
 	Description: Pascal compiled with FreePascal (3.2.0)
 	Files that share some of the pipelines:
-		c-gcc-linux-2022-01-29.zip
-		cs-dotnet-core-2022-01-29.zip
-		cxx-gcc-linux-2022-01-29.zip
-		go-2022-01-29.zip
+		c-gcc-linux-2022-10-07.zip
+		cxx-gcc-linux-2022-10-07.zip
 		go-2022-02-16.zip
 		prolog-2022-01-29.zip
-		rust-2022-01-29.zip
-		rust-2022-02-16.zip
-
-go-2022-01-29.zip
-	ID: go
-	Name: Go
-	Description: Go compiled with default Go compiler (1.15.13)
-	Files that share some of the pipelines:
-		c-gcc-linux-2022-01-29.zip
-		cs-dotnet-core-2022-01-29.zip
-		cxx-gcc-linux-2022-01-29.zip
-		freepascal-linux-2022-01-29.zip
-		go-2022-02-16.zip
-		prolog-2022-01-29.zip
-		rust-2022-01-29.zip
 		rust-2022-02-16.zip
 
 go-2022-02-16.zip
@@ -102,13 +59,10 @@ go-2022-02-16.zip
 	Name: Go
 	Description: Go compiled with default Go compiler (1.16.7)
 	Files that share some of the pipelines:
-		c-gcc-linux-2022-01-29.zip
-		cs-dotnet-core-2022-01-29.zip
-		cxx-gcc-linux-2022-01-29.zip
-		freepascal-linux-2022-01-29.zip
-		go-2022-01-29.zip
+		c-gcc-linux-2022-10-07.zip
+		cxx-gcc-linux-2022-10-07.zip
+		freepascal-linux-2022-10-07.zip
 		prolog-2022-01-29.zip
-		rust-2022-01-29.zip
 		rust-2022-02-16.zip
 
 groovy-2022-01-29.zip
@@ -121,59 +75,28 @@ haskell-2022-01-29.zip
 	Name: Haskell
 	Description: Haskell functional language compiled with GHC compiler (8.2.2)
 
-java-2022-01-29.zip
-	ID: java
-	Name: Java (OpenJDK)
-	Description: Java compiled and executed in OpenJDK runtime (16.0.1)
-	Files that share some of the pipelines:
-		java-2022-02-16.zip
-
 java-2022-02-16.zip
 	ID: java
 	Name: Java (OpenJDK)
 	Description: Java compiled and executed in OpenJDK runtime (17.0.1)
-	Files that share some of the pipelines:
-		java-2022-01-29.zip
+
+java-maven-2022-10-07.zip
+	ID: java-maven
+	Name: Java Maven
+	Description: Java projects compiled and executed by Apache Maven (v3.8.4)
 
 kotlin-2022-01-29.zip
 	ID: kotlin
 	Name: Kotlin Programming Language
 	Description: Kotlin Programming Language compiled with kotlinc (1.4.10) and executed with java
 
-node-linux-2022-01-29.zip
+node-linux-2022-10-07.zip
 	ID: node-linux
 	Name: JavaScript (Node.js)
-	Description: JavaScript executed in Node.js runtime (14.17.4)
+	Description: JavaScript executed in Node.js runtime (18.9.0)
 	Files that share some of the pipelines:
 		bash-2022-01-29.zip
-		node-linux-2022-02-16.zip
-		php-linux-2022-01-29.zip
 		php-linux-2022-02-16.zip
-		python3-2022-01-29.zip
-		python3-2022-02-16.zip
-
-node-linux-2022-02-16.zip
-	ID: node-linux
-	Name: JavaScript (Node.js)
-	Description: JavaScript executed in Node.js runtime (14.19.0)
-	Files that share some of the pipelines:
-		bash-2022-01-29.zip
-		node-linux-2022-01-29.zip
-		php-linux-2022-01-29.zip
-		php-linux-2022-02-16.zip
-		python3-2022-01-29.zip
-		python3-2022-02-16.zip
-
-php-linux-2022-01-29.zip
-	ID: php-linux
-	Name: PHP: Hypertext Preprocessor
-	Description: PHP scripts executed with official PHP interpreter (7.4)
-	Files that share some of the pipelines:
-		bash-2022-01-29.zip
-		node-linux-2022-01-29.zip
-		node-linux-2022-02-16.zip
-		php-linux-2022-02-16.zip
-		python3-2022-01-29.zip
 		python3-2022-02-16.zip
 
 php-linux-2022-02-16.zip
@@ -182,10 +105,7 @@ php-linux-2022-02-16.zip
 	Description: PHP scripts executed with official PHP interpreter (8.1)
 	Files that share some of the pipelines:
 		bash-2022-01-29.zip
-		node-linux-2022-01-29.zip
-		node-linux-2022-02-16.zip
-		php-linux-2022-01-29.zip
-		python3-2022-01-29.zip
+		node-linux-2022-10-07.zip
 		python3-2022-02-16.zip
 
 prolog-2022-01-29.zip
@@ -193,26 +113,11 @@ prolog-2022-01-29.zip
 	Name: Prolog (SWI)
 	Description: Prolog scripts executed with SWI Prolog interpreter (8.0.1)
 	Files that share some of the pipelines:
-		c-gcc-linux-2022-01-29.zip
-		cs-dotnet-core-2022-01-29.zip
-		cxx-gcc-linux-2022-01-29.zip
-		freepascal-linux-2022-01-29.zip
-		go-2022-01-29.zip
+		c-gcc-linux-2022-10-07.zip
+		cxx-gcc-linux-2022-10-07.zip
+		freepascal-linux-2022-10-07.zip
 		go-2022-02-16.zip
-		rust-2022-01-29.zip
 		rust-2022-02-16.zip
-
-python3-2022-01-29.zip
-	ID: python3
-	Name: Python 3
-	Description: Python executed in Python (3.8) runtime
-	Files that share some of the pipelines:
-		bash-2022-01-29.zip
-		node-linux-2022-01-29.zip
-		node-linux-2022-02-16.zip
-		php-linux-2022-01-29.zip
-		php-linux-2022-02-16.zip
-		python3-2022-02-16.zip
 
 python3-2022-02-16.zip
 	ID: python3
@@ -220,39 +125,19 @@ python3-2022-02-16.zip
 	Description: Python executed in Python (3.9) runtime
 	Files that share some of the pipelines:
 		bash-2022-01-29.zip
-		node-linux-2022-01-29.zip
-		node-linux-2022-02-16.zip
-		php-linux-2022-01-29.zip
+		node-linux-2022-10-07.zip
 		php-linux-2022-02-16.zip
-		python3-2022-01-29.zip
-
-rust-2022-01-29.zip
-	ID: rust
-	Name: Rust
-	Description: Rust compiled with rustc compiler (1.49.0)
-	Files that share some of the pipelines:
-		c-gcc-linux-2022-01-29.zip
-		cs-dotnet-core-2022-01-29.zip
-		cxx-gcc-linux-2022-01-29.zip
-		freepascal-linux-2022-01-29.zip
-		go-2022-01-29.zip
-		go-2022-02-16.zip
-		prolog-2022-01-29.zip
-		rust-2022-02-16.zip
 
 rust-2022-02-16.zip
 	ID: rust
 	Name: Rust
 	Description: Rust compiled with rustc compiler (1.54.0)
 	Files that share some of the pipelines:
-		c-gcc-linux-2022-01-29.zip
-		cs-dotnet-core-2022-01-29.zip
-		cxx-gcc-linux-2022-01-29.zip
-		freepascal-linux-2022-01-29.zip
-		go-2022-01-29.zip
+		c-gcc-linux-2022-10-07.zip
+		cxx-gcc-linux-2022-10-07.zip
+		freepascal-linux-2022-10-07.zip
 		go-2022-02-16.zip
 		prolog-2022-01-29.zip
-		rust-2022-01-29.zip
 
 scala-2022-01-29.zip
 	ID: scala

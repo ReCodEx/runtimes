@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TARGET_DIR=$1
-RUNTIMES='bash c-gcc-linux cs-dotnet-core cxx-gcc-linux data-linux freepascal-linux go groovy haskell java kotlin node-linux php-linux prolog python3 rust scala'
+RUNTIMES='bash c-gcc-linux cs-dotnet-core cxx-gcc-linux data-linux freepascal-linux go groovy haskell java java-maven kotlin node-linux php-linux prolog python3 rust scala'
 EXEC='/opt/recodex/core-api/bin/console'
 DATE=`date '+%Y-%m-%d'`
 
