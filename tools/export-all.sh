@@ -2,7 +2,7 @@
 
 TARGET_DIR=$1
 RUNTIMES='bash c-gcc-linux cs-dotnet-core cxx-gcc-linux data-linux freepascal-linux go groovy haskell java java-maven kotlin node-linux php-linux prolog python3 rust scala'
-EXEC='/opt/recodex/core-api/bin/console'
+EXEC='/opt/recodex-core/bin/console'
 DATE=`date '+%Y-%m-%d'`
 
 cd `dirname "$0"` || exit 1
